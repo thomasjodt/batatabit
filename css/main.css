@@ -29,6 +29,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: var(--linear-bg);
 }
 header img {
     width: 150px;
@@ -44,4 +45,44 @@ header img {
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+.header--title-container h1 {
+    margin-bottom: 25px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+.header--title-container p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
+.header--title-container .header--button {
+    position: absolute;
+    bottom: -24px;
+    left: calc(50% - 114.5px);
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* sombra */
+    box-shadow: 0 4px 8px #59491e29;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header--button span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    background-image: url("../assets/icons/down-arrow.svg");
+
 }
