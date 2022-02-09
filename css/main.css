@@ -68,7 +68,6 @@ header img {
     width: 229px;
     height: 48px;
     background-color: var(--off-white);
-    /* sombra */
     box-shadow: 0 4px 8px #59491e29;
     border: none;
     border-radius: 5px;
@@ -337,4 +336,121 @@ main {
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--white);
+}
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding: 65px 0;
+    text-align: center;
+    height: auto;
+    background-color: var(--off-white);
+}
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.plans--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    margin-bottom: 16px;
+}
+.plans--title p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.plans-container--card {
+    position: relative;
+    width: 60%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0 ;
+    padding:16px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #00000029;
+    font-family: "Inter", serif;
+}
+.recommended {
+    position: absolute;
+    padding: 8px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--white);
+    top: -15px;
+    left: calc(50% - 50px);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+}
+.plan-info-container h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-family: "DM Sans", sans-serif;
+}
+.plan-info-container p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #757575;
+    margin: 16px 0;
+}
+.plan-info-container .plan-price {
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.2rem;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    color: #000;
+}
+.plan-price span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    position: absolute;
+    left: -12px;
+    top: 14px;
+    color: #363636;
+}
+.monthly .plan-card-ca {
+    border-color: var(--secondary-blue);
+    color: var(--secondary-blue);
+}
+.biannual .plan-card-ca {
+    border-color: var(--grey);
+    color: var(--grey);
+}
+.plan-card-ca {
+    width: 150px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    color: var(--warm-black);
+    padding: 16px 0;
+}
+.plan-card-ca span {
+    background-image: url("../assets/icons/orange-right-arrow.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
 }
