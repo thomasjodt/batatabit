@@ -19,6 +19,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 header {
     position: relative;
@@ -320,21 +321,6 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
-/* .hero-background {
-    position: relative;
-    width: 100%;
-    min-width: 320px;
-    height: auto;
-
-}.section-container h2 {
-    position: absolute;
-    top: 64px;
-    left: calc(50% - 79px);
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    font-weight: bold;
-    color: var(--white); */
-
 .bitcoin-img-container {
     width: 100%;
     min-width: 320px;
